@@ -97,7 +97,7 @@ thru media queries at the end*/
 .btn{
 	position:absolute;
 	display:inline-block;
-	top:22%;
+	top:10%;
 	left:30%;
 
 }
@@ -288,7 +288,7 @@ thru media queries at the end*/
 	.btn{
 		position:absolute;
 		display:inline-block;
-		top:20%;
+		top:15%;
 		left:40%;
 		font-size:1em;
 		padding-left:.8em;
@@ -323,7 +323,7 @@ thru media queries at the end*/
 	.btn{
 		position:absolute;
 		display:inline-block;
-		top:30%;
+		top:20%;
 		left:44%;
 		font-size:1.3em;
 		padding-left:.8em;
