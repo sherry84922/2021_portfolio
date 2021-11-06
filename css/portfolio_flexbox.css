@@ -52,7 +52,7 @@ thru media queries at the end*/
 
 /*portfolio nav*/
 .nav-container{
-	background-color:#475EBF;
+	/*background-color:#475EBF;*/
 	-webkit-justify-display:flex;
 	display: -ms-flex;
 	display: flex;
