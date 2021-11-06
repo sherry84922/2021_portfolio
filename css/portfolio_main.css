@@ -381,7 +381,7 @@ nav a:hover, nav a:focus {
   display: inline-block;
   font-family:'Heebo', sans-serif;
   text-decoration: none;
-  color:#E3E5E8;
+  color:#475EBF;
   font-weight:bold;
   position: relative;
   width: 5rem;
@@ -394,7 +394,7 @@ nav a:hover, nav a:focus {
   display: inline-block;
   font-family:'Heebo', sans-serif;
   text-decoration: none;
-  color:#E3E5E8;
+  color:#475EBF;
   font-weight:bold;
   position: relative;
   width: 5rem;
@@ -415,7 +415,7 @@ http://tobiasahlin.com/blog/css-trick-animating-link-underlines/*/
   height: 2px;
   bottom: -0.5rem;
   left: 0;
-  background-color: #2AD0DD;
+  background-color: #475EBF;
   visibility: hidden;
   /*initially it does not occupy any space*/
   -webkit-transform: scaleX(0);
@@ -432,7 +432,7 @@ http://tobiasahlin.com/blog/css-trick-animating-link-underlines/*/
 }
 
 .main-nav-accent-one:hover, .main-nav-accent-one:focus{
-  color:#2AD0DD;
+  color:#475EBF;
 }
 
 .main-nav-accent-two:before{
@@ -442,24 +442,30 @@ http://tobiasahlin.com/blog/css-trick-animating-link-underlines/*/
   height: 2px;
   bottom: -0.5rem;
   left: 0;
-  background-color: #DD7AB5;
-  visibility: hidden;
-  /*initially it does not occupy any space*/
-  -webkit-transform: scaleX(0);
+  background-color: #475EBF;
+  /*this is the hover line code*/
+  /*visibility: hidden;*/
+    /*-webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
-}
+  transition: all 0.3s ease-in-out 0s;*/
 
-
-.main-nav-accent-two:hover:before, .main-nav-accent-two:focus:before {
+/*to return to the previous line animation, delete the following and activate the code below*/
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
 
+/*recover the line animation*/
+/*.main-nav-accent-two:hover:before, .main-nav-accent-two:focus:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}*/
+
 .main-nav-accent-two:hover, .main-nav-accent-two:focus {
-  color:#DD7AB5;
+  color:#475EBF;
+  font-weight: bold;
 }
 
 .nav-container ul{
@@ -478,7 +484,7 @@ nav ul{
   height: 2px;
   bottom: -0.5rem;
   left: 0;
-  background-color: #2AD0DD;
+  background-color: #475EBF;
   visibility: hidden;
   /*initially it does not occupy any space*/
   -webkit-transform: scaleX(0);
@@ -520,7 +526,7 @@ nav ul{
 }
 
 .on-page-home{
-  color:#EFBB3A;
+  color:#475EBF;
 }
 
 nav {
