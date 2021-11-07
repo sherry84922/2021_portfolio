@@ -687,7 +687,7 @@ border-color: #65B2C6;
    -webkit-user-select: none;
    touch-action: manipulation; }
 
-   .button-1:hover, .button-1:focus { background-color: rgba(71, 94, 191, 0.6); }
+   .update-btn:hover, .update-btn:focus { background-color: rgba(71, 94, 191, 0.6); }
 
 .visual-design{
   padding:0;
