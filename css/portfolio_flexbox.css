@@ -265,7 +265,7 @@ thru media queries at the end*/
 
 
 /*porject display*/
-@media(min-width:31.25em) and (max-width:50.62em){
+@media(min-width:38.375em) and (max-width:50.62em){
 	.project-item{
 		flex-basis:40%;
 	}
@@ -324,7 +324,7 @@ thru media queries at the end*/
 		position:absolute;
 		display:inline-block;
 		top:20%;
-		left:44%;
+		left:40%;
 		font-size:1.3em;
 		padding-left:.8em;
 		padding-right:.8em;
@@ -387,7 +387,7 @@ thru media queries at the end*/
 }
 
 /*h2 in project*/
-@media(min-width:31.25em) and (max-width:50em){
+@media(min-width:38.375em) and (max-width:50em){
 
 	.project-section-title{
 		margin-left:3rem;

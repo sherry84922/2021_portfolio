@@ -19,6 +19,7 @@ footer{
   color:#3C3C3C;
   font-size:0.8rem;
   padding-bottom:1rem;
+  padding-top:1rem;
 }
 
 h1{
@@ -136,15 +137,17 @@ img{
   max-width:100%;
 }
 
-.navbnr-img{
-  max-width: 100%;
-  height: auto;
-}
-
 .navbnr-sub{
   /*display:inline-block;*/
   position: relative;
 }
+
+.navbnr-img{
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
 
 .btn{
   position:absolute;
@@ -413,7 +416,7 @@ http://tobiasahlin.com/blog/css-trick-animating-link-underlines/*/
   position: absolute;
   width: 100%;
   height: 2px;
-  bottom: -0.5rem;
+  bottom: -0.3rem;
   left: 0;
   background-color: #475EBF;
   visibility: hidden;
@@ -440,7 +443,7 @@ http://tobiasahlin.com/blog/css-trick-animating-link-underlines/*/
   position: absolute;
   width: 100%;
   height: 2px;
-  bottom: -0.5rem;
+  bottom: -0.3rem;
   left: 0;
   background-color: #475EBF;
   /*this is the hover line code*/
@@ -482,7 +485,7 @@ nav ul{
   position: absolute;
   width: 100%;
   height: 2px;
-  bottom: -0.5rem;
+  bottom: -0.3rem;
   left: 0;
   background-color: #475EBF;
   visibility: hidden;
@@ -636,10 +639,10 @@ border-color: #65B2C6;
 
 .project-group{
 
-  border-bottom-style: solid;
-  border-bottom-width:1.2px;
-  border-bottom-color:#DBDBDB;
-  padding-bottom:2.7rem;
+  border-top-style: solid;
+  border-top-width:1.2px;
+  border-top-color:#DBDBDB;
+  padding-top:1.3rem;
 
 }
 
