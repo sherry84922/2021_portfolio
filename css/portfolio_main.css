@@ -19,6 +19,7 @@ footer{
   color:#3C3C3C;
   font-size:0.8rem;
   padding-bottom:1rem;
+  padding-top:1rem;
 }
 
 h1{
@@ -638,10 +639,10 @@ border-color: #65B2C6;
 
 .project-group{
 
-  border-bottom-style: solid;
-  border-bottom-width:1.2px;
-  border-bottom-color:#DBDBDB;
-  padding-bottom:2.7rem;
+  border-top-style: solid;
+  border-top-width:1.2px;
+  border-top-color:#DBDBDB;
+  padding-top:1.3rem;
 
 }
 
