@@ -130,7 +130,7 @@ img{
   max-width:100%;
   width:100%;
   margin:0 auto;
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1); 
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -449,12 +449,12 @@ http://tobiasahlin.com/blog/css-trick-animating-link-underlines/*/
   background-color: #475EBF;
   /*this is the hover line code*/
   /*visibility: hidden;*/
-    /*-webkit-transform: scaleX(0);
+  /*-webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;*/
 
-/*to return to the previous line animation, delete the following and activate the code below*/
+  /*to return to the previous line animation, delete the following and activate the code below*/
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
@@ -462,9 +462,9 @@ http://tobiasahlin.com/blog/css-trick-animating-link-underlines/*/
 
 /*recover the line animation*/
 /*.main-nav-accent-two:hover:before, .main-nav-accent-two:focus:before {
-  visibility: visible;
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
+visibility: visible;
+-webkit-transform: scaleX(1);
+transform: scaleX(1);
 }*/
 
 .main-nav-accent-two:hover, .main-nav-accent-two:focus {
@@ -647,12 +647,47 @@ border-color: #65B2C6;
 
 }
 
-.project-group-title{
-
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+#new-update{
+  background-color: rgba(71, 94, 191, 0.2);
   text-align: center;
+  padding:1rem 0;
+  margin-bottom: 3rem;
 }
+
+#update-bnr{
+  display:inline-block;
+  justify-content: center;
+  align-items: center;
+  font-weight:bold;
+}
+
+/*citation: https://getcssscan.com/css-buttons-examples*/
+.update-btn{
+  background-color: rgba(71, 94, 191);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer; display:
+  inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  /* height: 40px;
+  line-height: 20px;
+  list-style: none; */
+  margin: 0 1.5rem;
+  outline: none;
+   padding: 0.5rem 0.5rem;
+   position: relative;
+   text-align: center;
+   text-decoration: none;
+   transition: color 100ms;
+   vertical-align: baseline;
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation; }
+
+   .button-1:hover, .button-1:focus { background-color: rgba(71, 94, 191, 0.6); }
 
 .visual-design{
   padding:0;
