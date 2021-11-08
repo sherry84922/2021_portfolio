@@ -655,7 +655,7 @@ border-color: #65B2C6;
 }
 
 #new-update-home{
-  background-color: rgba(71, 94, 191, 0.2);
+  background-color: rgba(71, 94, 191);
   text-align: center;
   padding:1rem 0;
 }
@@ -665,6 +665,14 @@ border-color: #65B2C6;
   justify-content: center;
   align-items: center;
   font-weight:bold;
+}
+
+#update-bnr-home{
+  display:inline-block;
+  justify-content: center;
+  align-items: center;
+  font-weight:bold;
+  color: #FFFFFF;
 }
 
 /*citation: https://getcssscan.com/css-buttons-examples*/
@@ -699,6 +707,36 @@ border-color: #65B2C6;
     padding:0;
     padding-bottom:2.5rem;
   }
+
+  .update-btn-home{
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: rgba(71, 94, 191);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    /* height: 40px;
+    line-height: 20px;
+    list-style: none; */
+    margin: 0 1.5rem;
+    outline: none;
+    padding: 0.5rem 0.5rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation; }
+
+    .update-btn-home:hover, .update-btn-home:focus {
+      font-weight:bolder;
+    }
+
 
   .project-category-title{
     margin-bottom:0;
