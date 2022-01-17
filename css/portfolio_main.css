@@ -504,14 +504,15 @@ nav ul{
   transform: scaleX(1);
 }
 
+
 .nav-logo-item{
   display:inline-block;
   margin:0.5rem 0;
-  margin-left:0rem;
+  margin-left:1.5rem;
   font-family: 'Heebo', sans-serif;
   color:#475EBF;
   font-size: 1.5rem;
-  text-align:center;
+  /* text-align:center; */
   font-weight:bolder;
 
   -webkit-transition: color 0.3s ease-in-out 0s;
@@ -531,6 +532,19 @@ nav ul{
 
 .on-page-home{
   color:#475EBF;
+}
+
+#intro-greeting{
+  padding-left: 5rem;
+  font-size: 2.5rem;
+  line-height: 4rem;
+}
+
+#intro-description{
+  padding-left: 5rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: normal;
 }
 
 nav {
@@ -738,108 +752,108 @@ border-color: #65B2C6;
     }
 
 
-  .project-category-title{
-    margin-bottom:0;
-  }
+    .project-category-title{
+      margin-bottom:0;
+    }
 
-  .project-overlay{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: .55;
-    background-color: #fff;
-  }
-
-
-  .project-hover-text{
-    color: #3C3C3C;
-    font-size: 0.8rem;
-    font-weight:600;
-    line-height:0.1rem;
-    position: absolute;
-    max-width:100%;
-    top: 50%;
-    left: 53%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-  }
-
-  /*recent project*/
-  .recent-project-item {
-    display: inline-block;
-    position:relative;
-    line-height: 0;
-    margin: 1.2rem;
-    font-size: 1rem;
-    opacity: .999;
-  }
+    .project-overlay{
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: .55;
+      background-color: #fff;
+    }
 
 
-  .project-item-title, .project-item-description{
-    display: block;
-    margin: auto;
-    text-align: center
-  }
+    .project-hover-text{
+      color: #3C3C3C;
+      font-size: 0.8rem;
+      font-weight:600;
+      line-height:0.1rem;
+      position: absolute;
+      max-width:100%;
+      top: 50%;
+      left: 53%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+    }
 
-  #recent-project-footer{
-    padding-top:1.5rem;
-    width:100%;
-    margin-bottom:0;
-    /* background-color:#EAE9E9; */
-  }
-
-  .recent-project-item {
-    background-color: transparent;
-    border: 1.4px solid #d0d0d0;
-  }
-
-  .recent-project-item-img{
-    max-width:100%;
-    width:100%;
-    vertical-align:middle;
-    /* padding:0.2rem; */
-  }
-
-
-  .recent-project-item:before, .recent-project-item:after {
-    content: '';
-    border-style: solid;
-    position: absolute;
-    z-index: 5;
-    -webkit-box-sizing: content-box;
-    box-sizing: content-box;
-  }
-  .recent-project-item:before {
-    width: 0;
-    height: 100%;
-    border-width: 1.4px 0 1.4px 0;
-    top: -1px;
-    left: 0;
-    -webkit-transition-delay: 0.08s;
-    transition-delay: 0.08s;
-  }
+    /*recent project*/
+    .recent-project-item {
+      display: inline-block;
+      position:relative;
+      line-height: 0;
+      margin: 1.2rem;
+      font-size: 1rem;
+      opacity: .999;
+    }
 
 
-  .recent-project-item:after {
-    width: 100%;
-    height: 0;
-    border-width: 0 1.4px 0 1.4px;
-    top: 0;
-    left: -1px;
-  }
-  .recent-project-item:hover:before {
-    width: 100%;
-  }
-  .recent-project-item:hover:after {
-    height: 100%;
-  }
+    .project-item-title, .project-item-description{
+      display: block;
+      margin: auto;
+      text-align: center
+    }
 
-  /*footer*/
-  footer{
-    text-align:center;
-  }
+    #recent-project-footer{
+      padding-top:1.5rem;
+      width:100%;
+      margin-bottom:0;
+      /* background-color:#EAE9E9; */
+    }
+
+    .recent-project-item {
+      background-color: transparent;
+      border: 1.4px solid #d0d0d0;
+    }
+
+    .recent-project-item-img{
+      max-width:100%;
+      width:100%;
+      vertical-align:middle;
+      /* padding:0.2rem; */
+    }
+
+
+    .recent-project-item:before, .recent-project-item:after {
+      content: '';
+      border-style: solid;
+      position: absolute;
+      z-index: 5;
+      -webkit-box-sizing: content-box;
+      box-sizing: content-box;
+    }
+    .recent-project-item:before {
+      width: 0;
+      height: 100%;
+      border-width: 1.4px 0 1.4px 0;
+      top: -1px;
+      left: 0;
+      -webkit-transition-delay: 0.08s;
+      transition-delay: 0.08s;
+    }
+
+
+    .recent-project-item:after {
+      width: 100%;
+      height: 0;
+      border-width: 0 1.4px 0 1.4px;
+      top: 0;
+      left: -1px;
+    }
+    .recent-project-item:hover:before {
+      width: 100%;
+    }
+    .recent-project-item:hover:after {
+      height: 100%;
+    }
+
+    /*footer*/
+    footer{
+      text-align:center;
+    }

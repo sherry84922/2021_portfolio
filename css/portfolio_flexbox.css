@@ -401,11 +401,16 @@ thru media queries at the end*/
 
 	.nav-logo{
 		margin-right:auto;
-		margin-left:2.3rem;
+		/* margin-left:2.3rem; */
 	}
 
-	.nav-logo-item{
+	/* .nav-logo-item{
 		margin-left:3.3rem;
+	} */
+
+	img.personal-nav-logo{
+		max-width: 15%;
+		padding-right: 1rem;
 	}
 
 	.nav-container{
@@ -461,13 +466,14 @@ thru media queries at the end*/
 /*homepage img*/
 @media(min-width:59.375em){
 
+
 	/*homapage image*/
 	#big-decoration{
 		display:block;
 		max-width:100%;
 		width:100%;
 		margin:0 auto;
-		box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.1); 
+		box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.1);
 		/* padding-left:5rem;
 		padding-right:5rem; */
 	}
