@@ -817,16 +817,19 @@ border-color: #65B2C6;
       /* background-color:#EAE9E9; */
     }
 
-    .recent-project-item {
-      background-color: white;
-      border: 1.4px solid transparent;
-    }
     .recent-project-content-container{
       display:grid;
       grid-gap:0;
       grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+      }
 
+      .recent-project-content-area{
+        padding:2em;
+      }
 
+    .recent-project-item {
+      background-color: white;
+      border: 1.4px solid transparent;
     }
 
     /* .recent-project-item-img{
