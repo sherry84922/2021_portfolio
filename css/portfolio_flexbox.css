@@ -118,9 +118,9 @@ thru media queries at the end*/
 	justify-content: center;
 }
 
-.recent-project-item{
+/* .recent-project-item{
 	flex-basis:95%;
-}
+} */
 
 /*about*/
 .about-container{
@@ -274,9 +274,9 @@ thru media queries at the end*/
 		font-size:.9rem;
 	}
 
-	.recent-project-item{
+	/* .recent-project-item{
 		flex-basis:30%;
-	}
+	} */
 
 	#recent-project-footer{
 		padding-top:1.5rem;
@@ -308,10 +308,10 @@ thru media queries at the end*/
 	.display-hover-txt{
 		font-size:1rem;
 	}
-
+/* 
 	.recent-project-item{
 		flex-basis:20%;
-	}
+	} */
 
 	#recent-project-footer{
 		padding-top:1.5rem;

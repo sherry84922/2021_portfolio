@@ -106,14 +106,16 @@ h3{
   padding-bottom:1rem;
 }
 
+img.recent-img-preview{
+  display:block;
+  width:100%;
+  max-width:100%;
+  border-radius:10px 0 0 10px;
 
+}
 
 img{
   max-width:60%;
-}
-
-#big_logo_separation{
-
 }
 
 .intro-img{
@@ -638,6 +640,7 @@ nav li {
 }
 .border-highlight-one:before, .border-highlight-one:after {
   border-color: #475EBF;
+  border-radius:10px;
 }
 
 /* .border-highlight-two:before, .border-highlight-two:after {
@@ -785,12 +788,19 @@ border-color: #65B2C6;
 
     /*recent project*/
     .recent-project-item {
-      display: inline-block;
+      /* display: inline-block;
       position:relative;
       line-height: 0;
       margin: 1.2rem;
       font-size: 1rem;
-      opacity: .999;
+      opacity: .999; */
+    display: block;
+    border-radius: 10px;
+    position: relative;
+    line-height: 0;
+    margin: 2rem;
+    opacity: .999;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.05);
     }
 
 
@@ -808,16 +818,17 @@ border-color: #65B2C6;
     }
 
     .recent-project-item {
-      background-color: transparent;
-      border: 1.4px solid #d0d0d0;
+      background-color: white;
+      border: 1.4px solid transparent;
     }
 
-    .recent-project-item-img{
+
+    /* .recent-project-item-img{
       max-width:100%;
       width:100%;
       vertical-align:middle;
-      /* padding:0.2rem; */
-    }
+      /* padding:0.2rem; must omit this line later on!
+    } */
 
 
     .recent-project-item:before, .recent-project-item:after {
