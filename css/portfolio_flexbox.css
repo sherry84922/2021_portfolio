@@ -386,8 +386,8 @@ thru media queries at the end*/
 	}
 }
 
-/*home recent project: new setup*/
-@media(max-width:56.25em){
+/*home recent project: 2022 new setup*/
+@media(max-width:62.5em){
 
 	.recent-project-content-container{
 		display:grid;
@@ -420,6 +420,19 @@ thru media queries at the end*/
 	  margin-left:2rem;
 		padding:0;
 	}
+}
+
+@media(max-width:21.18em){
+
+	.more-project{
+		margin-top: 0.5em;
+    padding-left: 1.8em;
+	}
+
+	.main-nav-accent-one{
+		width: 5.8em;
+	}
+
 }
 
 /*h2 in project*/
