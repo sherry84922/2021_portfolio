@@ -192,7 +192,7 @@ img{
   align-items: center;
   width: 2.5rem;
   height: 1.5rem;
-  padding-top:2rem;
+  padding-top:1rem;
   padding-right:1rem;
   cursor: pointer;
   z-index: 6;
@@ -202,7 +202,7 @@ img{
 .menu-btn__lines::after {
   width: 1.5rem;
   height: 0.1rem;
-  background-color: red;
+  background-color: #475EBF;
   transition: all 0.5s ease-in-out;
 }
 .menu-btn__lines::before,
@@ -223,11 +223,11 @@ img{
 }
 .menu-btn.open .menu-btn__lines::before {
   transform: rotate(45deg) translate(-1.5rem, 1.5rem);
-  background-color: red;
+  background-color: black;
 }
 .menu-btn.open .menu-btn__lines::after {
   transform: rotate(-45deg) translate(-1.5rem, -1.5rem);
-  background-color: red;
+  background-color: black;
 }
 
 .btn{
@@ -644,7 +644,7 @@ nav {
 
 nav li {
   display:inline-block;
-  margin: 0.3rem 1rem;
+  /* margin: 0.3rem 1rem; */
 }
 
 /*intext link*/
