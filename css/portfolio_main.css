@@ -616,6 +616,10 @@ nav ul{
 }
 
 .intro-container{
+  border-bottom-style: solid;
+  border-bottom-width:1.2px;
+  border-bottom-color:#DBDBDB;
+  margin-bottom:5rem;
   display:grid;
   grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
 }
@@ -626,23 +630,27 @@ margin: 0 auto;
   }
 
 #intro-greeting{
-  padding-left: 5rem;
   font-size: 2.5rem;
   line-height: 4rem;
 }
 
 #intro-description{
-  padding-left: 5rem;
+
   font-size: 1.1rem;
   line-height: 1.8rem;
   font-weight: normal;
 }
 
+#intro-content{
+    padding-left: 5rem;
+}
+
 .project-group-title{
   display:inline-block;
-  margin-left:1.2rem;
+  margin-left:2rem;
   margin-top:1.2rem;
 }
+
 
 .project-display-title{
   margin-top:6rem;
@@ -898,7 +906,7 @@ border-color: #65B2C6;
     border-radius: 10px;
     position: relative;
     line-height: 0;
-    margin: 1.2rem;
+    margin: 1.2rem 2rem;
     opacity: .999;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.05);
   }
