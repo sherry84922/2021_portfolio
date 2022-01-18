@@ -549,6 +549,14 @@ nav ul{
   font-weight: normal;
 }
 
+.project-group-title{
+  display:inline-block;
+  margin-left:1.2rem;
+}
+
+.more-project{
+}
+
 nav {
   width: 100%;
 }
@@ -668,7 +676,7 @@ border-color: #65B2C6;
   background-color: rgba(71, 94, 191, 0.2);
   text-align: center;
   padding:1rem 0;
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
 }
 
 #new-update-home{
@@ -798,7 +806,7 @@ border-color: #65B2C6;
       border-radius: 10px;
       position: relative;
       line-height: 0;
-      margin: 2rem;
+      margin: 1.2rem;
       opacity: .999;
       box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.05);
     }
@@ -817,6 +825,11 @@ border-color: #65B2C6;
       /* background-color:#EAE9E9; */
     }
 
+    .recent-container{
+      display:grid;
+      grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+    }
+
     .recent-project-content-container{
       display:grid;
       grid-gap:0;
@@ -831,6 +844,7 @@ border-color: #65B2C6;
       background-color: white;
       border: 1.4px solid transparent;
     }
+
 
     /* .recent-project-item-img{
     max-width:100%;

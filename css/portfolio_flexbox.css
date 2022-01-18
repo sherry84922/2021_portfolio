@@ -308,7 +308,7 @@ thru media queries at the end*/
 	.display-hover-txt{
 		font-size:1rem;
 	}
-/* 
+/*
 	.recent-project-item{
 		flex-basis:20%;
 	} */
@@ -383,6 +383,42 @@ thru media queries at the end*/
 @media(min-width:37.5em){
 	.short-intro-item{
 		flex-basis:45%;
+	}
+}
+
+/*home recent project: new setup*/
+@media(max-width:56.25em){
+
+	.recent-project-content-container{
+		display:grid;
+		grid-gap:0;
+		grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+		}
+
+		img.recent-img-preview{
+		  border-radius:10px;
+		}
+
+		.recent-project-content-area{
+			padding:1.2em;
+		}
+}
+
+@media(max-width:37.5em){
+
+	.recent-container {
+	    display: grid;
+	    grid-template-columns: repeat(1, 1fr);
+	}
+
+	.recent-project-item {
+		margin:1rem 2rem;
+	}
+
+	.project-group-title{
+	  display:inline-block;
+	  margin-left:2rem;
+		padding:0;
 	}
 }
 
