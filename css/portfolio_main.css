@@ -67,6 +67,7 @@ h2 {
   border-bottom-width:1.2px;
   border-bottom-color:#DBDBDB;
   padding-bottom:5rem;
+  margin-top:8rem;
 }
 
 
@@ -160,7 +161,7 @@ img{
   right: 0;
   display: flex;
   justify-content: space-between;
-  padding: 0.8rem 2rem;
+  padding: 0 2rem;
   z-index: 5;
 }
 .menu-items {
@@ -172,75 +173,77 @@ img{
 .menu-items li a {
   font-size: 1rem;
   padding: 0.5em 1em;
-  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, font-weight 0.3s ease-in-out;
 }
 
 .menu-items li a:hover {
-  background-color: blue;
+  font-weight:bolder;
+  color:#475EBF;
 }
-  .menu-btn {
-    position: relative;
-    display: none;
-    justify-content: center;
-    align-items: center;
-    width: 1.5rem;
-    height: 1.5rem;
-    padding-top:2rem;
-    cursor: pointer;
-    z-index: 6;
-  }
-  .menu-btn__lines,
-  .menu-btn__lines::before,
-  .menu-btn__lines::after {
-    width: 1.5rem;
-    height: 0.1rem;
-    background-color: red;
-    transition: all 0.5s ease-in-out;
-  }
-  .menu-btn__lines::before,
-  .menu-btn__lines::after {
-    content: "";
-    position: absolute;
-  }
-  .menu-btn__lines::before {
-    transform: translateY(-0.5rem);
-  }
-  .menu-btn__lines::after {
-    transform: translateY(0.5rem);
-  }
-  /* animation */
-  .menu-btn.open .menu-btn__lines {
-    transform: translateX(2rem);
-    background-color: transparent;
-  }
-  .menu-btn.open .menu-btn__lines::before {
-    transform: rotate(45deg) translate(-1.5rem, 1.5rem);
-    background-color: red;
-  }
-  .menu-btn.open .menu-btn__lines::after {
-    transform: rotate(-45deg) translate(-1.5rem, -1.5rem);
-    background-color: red;
-  }
 
-  .btn{
-    position:absolute;
-    display:inline-block;
-    top:58%;
-    left:38%;
-    font-family: 'Heebo', sans-serif;
-    font-size:1rem;
-    font-weight: bold;
-    color:white;
-    background-color:#DD6478;
+.menu-btn {
+  position: relative;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding-top:2rem;
+  cursor: pointer;
+  z-index: 6;
+}
+.menu-btn__lines,
+.menu-btn__lines::before,
+.menu-btn__lines::after {
+  width: 1.5rem;
+  height: 0.1rem;
+  background-color: red;
+  transition: all 0.5s ease-in-out;
+}
+.menu-btn__lines::before,
+.menu-btn__lines::after {
+  content: "";
+  position: absolute;
+}
+.menu-btn__lines::before {
+  transform: translateY(-0.5rem);
+}
+.menu-btn__lines::after {
+  transform: translateY(0.5rem);
+}
+/* animation */
+.menu-btn.open .menu-btn__lines {
+  transform: translateX(2rem);
+  background-color: transparent;
+}
+.menu-btn.open .menu-btn__lines::before {
+  transform: rotate(45deg) translate(-1.5rem, 1.5rem);
+  background-color: red;
+}
+.menu-btn.open .menu-btn__lines::after {
+  transform: rotate(-45deg) translate(-1.5rem, -1.5rem);
+  background-color: red;
+}
 
-    -webkit-transition: color 0.3s ease-in;
-    transition: color 0.3s ease-in;
-  }
+.btn{
+  position:absolute;
+  display:inline-block;
+  top:58%;
+  left:38%;
+  font-family: 'Heebo', sans-serif;
+  font-size:1rem;
+  font-weight: bold;
+  color:white;
+  background-color:#DD6478;
 
-  .btn:hover{
-    text-decoration: none;
-    color:#F4C33B;
-  }
+  -webkit-transition: color 0.3s ease-in;
+  transition: color 0.3s ease-in;
+}
+
+.btn:hover{
+  text-decoration: none;
+  color:#F4C33B;
+}
 
 }
 
@@ -445,7 +448,7 @@ nav {
 }
 
 /* #hamburger-menu{
-  display:none;
+display:none;
 } */
 
 #big-intro{
@@ -608,6 +611,10 @@ nav ul{
 
 .on-page-home{
   color:#475EBF;
+}
+
+#intro-hero{
+  margin-top:8rem;
 }
 
 #intro-greeting{
