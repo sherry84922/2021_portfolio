@@ -125,6 +125,7 @@ img{
   width:100%;
 }
 
+
 #big-decoration{
   display:none;
 }
@@ -470,7 +471,7 @@ nav a:hover, nav a:focus {
   transition: color 0.3s ease-in-out 0s;
 }
 
-.main-nav-accent-two {
+/* .main-nav-accent-two {
   display: inline-block;
   font-family:'Heebo', sans-serif;
   text-decoration: none;
@@ -481,7 +482,7 @@ nav a:hover, nav a:focus {
   text-align: center;
   -webkit-transition: color 0.3s ease-in-out 0s;
   transition: color 0.3s ease-in-out 0s;
-}
+} */
 
 
 
@@ -515,14 +516,14 @@ http://tobiasahlin.com/blog/css-trick-animating-link-underlines/*/
   color:#475EBF;
 }
 
-.main-nav-accent-two:before{
+/* .main-nav-accent-two:before{
   content: "";
   position: absolute;
   width: 100%;
   height: 2px;
   bottom: -0.3rem;
   left: 0;
-  background-color: #475EBF;
+  background-color: #475EBF; */
   /*this is the hover line code*/
   /*visibility: hidden;*/
   /*-webkit-transform: scaleX(0);
@@ -531,10 +532,10 @@ http://tobiasahlin.com/blog/css-trick-animating-link-underlines/*/
   transition: all 0.3s ease-in-out 0s;*/
 
   /*to return to the previous line animation, delete the following and activate the code below*/
-  visibility: visible;
+  /* visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
-}
+} */
 
 /*recover the line animation*/
 /*.main-nav-accent-two:hover:before, .main-nav-accent-two:focus:before {
@@ -543,10 +544,10 @@ visibility: visible;
 transform: scaleX(1);
 }*/
 
-.main-nav-accent-two:hover, .main-nav-accent-two:focus {
+/* .main-nav-accent-two:hover, .main-nav-accent-two:focus {
   color:#475EBF;
   font-weight: bold;
-}
+} */
 
 .nav-container ul{
   width: 100%;
@@ -614,6 +615,16 @@ nav ul{
   margin-top:6.5rem;
 }
 
+.intro-container{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+}
+
+.intro-pic{
+  display:block;
+margin: 0 auto;
+  }
+
 #intro-greeting{
   padding-left: 5rem;
   font-size: 2.5rem;
@@ -622,8 +633,8 @@ nav ul{
 
 #intro-description{
   padding-left: 5rem;
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 1.1rem;
+  line-height: 1.8rem;
   font-weight: normal;
 }
 
