@@ -614,7 +614,7 @@ nav ul{
 }
 
 #intro-hero{
-  margin-top:8rem;
+  margin-top:6.5rem;
 }
 
 #intro-greeting{
@@ -634,6 +634,10 @@ nav ul{
   display:inline-block;
   margin-left:1.2rem;
   margin-top:1.2rem;
+}
+
+.project-display-title{
+  margin-top:6rem;
 }
 
 
