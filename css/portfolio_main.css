@@ -375,6 +375,10 @@ nav {
   margin-bottom: 0;
 }
 
+#hamburger-menu{
+  display:none;
+}
+
 #big-intro{
   /* margin-left:3.5rem; */
 }
