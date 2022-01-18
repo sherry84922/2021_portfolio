@@ -438,52 +438,50 @@ flex-basis:95%;
 /*2022 new hamnueger menu*/
 @media(max-width:54.375em){
 
-	#homeNav{
+	/* #homeNav{
 		display:none;
+	} */
+	#navHeader{
+		display:flex;
 	}
 
 	.menu-btn {
-		position: relative;
-		display: flex;
+		display:flex;
+
+	}
+
+	.menu-items{
+		flex-direction: column;
+		justify-content: space-around;
+		position:absolute;
+		top:0;
+		left:0;
+		right:0;
+		height:100vh;
+		transform: translateX(100vw);
+		background-color:black;
+		transition: transform 0.3s ease-in-out;
+	}
+
+	.menu-items.open{
+		transform: translateX(0);
+	}
+
+	.menu-items li{
+		width:100vw;
+		height:100%;
+	}
+
+	.menu-items li a{
+		color:white;
+		font-size:4vh;
+		display:flex;
+		width:100%;
+		height:100%;
 		justify-content: center;
-		align-items: center;
-		width: 1.5rem;
-		height: 1.5rem;
-		cursor: pointer;
-		z-index: 6;
+    align-items: center;
 	}
-	.menu-btn__lines,
-	.menu-btn__lines::before,
-	.menu-btn__lines::after {
-		width: 1.5rem;
-		height: 0.1rem;
-		background-color: red;
-		transition: all 0.5s ease-in-out;
-	}
-	.menu-btn__lines::before,
-	.menu-btn__lines::after {
-		content: "";
-		position: absolute;
-	}
-	.menu-btn__lines::before {
-		transform: translateY(-0.5rem);
-	}
-	.menu-btn__lines::after {
-		transform: translateY(0.5rem);
-	}
-	/* animation */
-	.menu-btn.open .menu-btn__lines {
-		transform: translateX(2rem);
-		background-color: transparent;
-	}
-	.menu-btn.open .menu-btn__lines::before {
-		transform: rotate(45deg) translate(-1.5rem, 1.5rem);
-		background-color: red;
-	}
-	.menu-btn.open .menu-btn__lines::after {
-		transform: rotate(-45deg) translate(-1.5rem, -1.5rem);
-		background-color: red;
-	}
+
 }
 
 /*h2 in project*/
