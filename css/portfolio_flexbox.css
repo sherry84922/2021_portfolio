@@ -443,7 +443,7 @@ padding-right: 1rem;
 }
 
 @media(min-width:17.5em) and (max-width:21.18em){
-	
+
 	.personal-nav-logo{
 		max-width: 20%;
     padding-right: 0.5rem;
@@ -489,7 +489,7 @@ padding-right: 1rem;
 		right:0;
 		height:100vh;
 		transform: translateX(100vw);
-		background-color:black;
+		background-color:#475EBF;
 		transition: transform 0.3s ease-in-out;
 	}
 
@@ -513,7 +513,8 @@ padding-right: 1rem;
 	}
 
 	.menu-items li a:hover {
-	  background-color: blue;
+	  background-color: #FAFBFF;
+		color:#475EBF;
 	}
 
 }
