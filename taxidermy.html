@@ -15,52 +15,73 @@
 
   <!-- for nav -->
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+  <script src="js/main.js" defer></script>
+
 </head>
 
 <body>
 
-  <nav class="nav-in-project-detail">
-    <ul class="nav-container">
-      <li  class="nav-logo"><a href="portfolio.html" class="nav-logo-item nav-link">Jar Hsuan Wang</a> </li>
+  <!-- <nav class="nav-in-project-detail">
+  <ul class="nav-container">
+  <li  class="nav-logo"><a href="portfolio.html" class="nav-logo-item nav-link">Jar Hsuan Wang</a> </li>
 
-      <li><a class="main-nav-accent-two nav-link" href="project_display.html">PROJECT</a></li>
-      <li><a class="main-nav-accent-one nav-link" href="about.html">ABOUT</a></li>
+  <li><a class="main-nav-accent-two nav-link" href="project_display.html">PROJECT</a></li>
+  <li><a class="main-nav-accent-one nav-link" href="about.html">ABOUT</a></li>
+</ul>
+</nav> -->
+
+<!--hamburger menu-->
+<nav id="navHeader">
+  <div class="nav-logo">
+    <li><a href="portfolio.html" class="nav-logo-item on-page-home">
+      <img class="personal-nav-logo" src="image/logo.png" alt="personal logo">Jar Hsuan</a> </li>
+    </div>
+
+    <div class="menu-btn">
+      <div class="menu-btn__lines"></div>
+    </div>
+
+    <ul class="menu-items">
+      <li><a class=" menu-item" href="project_UXUI_display.html">UX/UI</a></li>
+      <li><a class=" menu-item" href="project_visual_display.html">VISUAL</a></li>
+      <li><a class=" menu-item" href="about.html">ABOUT</a></li>
     </ul>
   </nav>
 
   <section class="preview-section-container">
 
-    <div id="new-update">
-      <h2 id="update-bnr">2021 New UX/UI Project Overview</h2>
-      <button class="update-btn" type="button" onclick="window.location.href='http://w3.uch.edu.tw/pec/2021/2021_updates.pdf';">Check Here</button>
+    <!-- <div id="new-update">
+    <h2 id="update-bnr">2021 New UX/UI Project Overview</h2>
+    <button class="update-btn" type="button" onclick="window.location.href='http://w3.uch.edu.tw/pec/2021/2021_updates.pdf';">Check Here</button>
+  </div> -->
+
+  <div class="overview-video">
+
+    <div class= "overview-vid-item">
+      <h1 class="project-title-vid">&rsaquo; Documentary </h1>
+      <h2 class="project-name-vid overview-accent-color-one">Knowledge Through Taxidermy</h2>
+      <h3 class="overview-subtitle">Role</h3>
+      <p  class="overview-description">Content Strategist, Director, Post-Production Assistant and Graphic Designer</p>
+      <h3 class="overview-subtitle">Caption</h3>
+      <p  class="overview-description">The final documentary embedded is 3 min 54sec in length.</p>
     </div>
-    
-    <div class="overview-video">
 
-      <div class= "overview-vid-item">
-        <h1 class="project-title-vid">&rsaquo; Documentary </h1>
-        <h2 class="project-name-vid overview-accent-color-one">Knowledge Through Taxidermy</h2>
-        <h3 class="overview-subtitle">Role</h3>
-        <p  class="overview-description">Content Strategist, Director, Post-Production Assistant and Graphic Designer</p>
-        <h3 class="overview-subtitle">Caption</h3>
-        <p  class="overview-description">The final documentary embedded is 3 min 54sec in length.</p>
-      </div>
-
-      <div class="video-container overview-vid-item">
-        <div class="videowrapper">
-          <iframe src="https://player.vimeo.com/video/257990027" width="640" height="360" ></iframe>
-        </div>
+    <div class="video-container overview-vid-item">
+      <div class="videowrapper">
+        <iframe src="https://player.vimeo.com/video/257990027" width="640" height="360" ></iframe>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section>
-    <!-- overview-accent-color-one -->
-    <h2 class="project-section-title">Overview</h2>
+<section>
+  <!-- overview-accent-color-one -->
+  <h2 class="project-section-title">Overview</h2>
 
-    <h3 class="project-paragraph in-para-overview-title">Goal</h3>
-    <p  class="project-paragraph">Creating a short educational documentary film for the Museum of Vancouver’s <em> Wild Things </em> exhibition to
-       illustrate the historical and cultural relationships.</p>
+  <h3 class="project-paragraph in-para-overview-title">Goal</h3>
+  <p  class="project-paragraph">Creating a short educational documentary film for the Museum of Vancouver’s <em> Wild Things </em> exhibition to
+    illustrate the historical and cultural relationships.</p>
     <h3 class="project-paragraph in-para-overview-title">Teammates</h3>
     <p  class="project-paragraph">Justine Zhang, Tamiko Tadeo</p>
     <h3 class="project-paragraph in-para-overview-title">Tools</h3>
@@ -133,7 +154,7 @@
 
 
   <footer>
-          <a href="http://w3.uch.edu.tw/pec/2021/2021_resume.pdf">RESUME</a> | <a href ="https://flic.kr/s/aHsmK7DxUj"> PROJECT GALLERY </a> | <p id="contact">CONTACT:sherry95jhw@gmail.com</p>
+    <a href="http://w3.uch.edu.tw/pec/2021/2021_resume.pdf">RESUME</a> | <a href ="https://flic.kr/s/aHsmK7DxUj"> PROJECT GALLERY </a> | <p id="contact">CONTACT:sherry95jhw@gmail.com</p>
   </footer>
 
 </body>

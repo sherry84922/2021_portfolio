@@ -9,6 +9,8 @@
   <link href="css/portfolio_main.css" rel="stylesheet">
   <link href="css/portfolio_flexbox.css" rel="stylesheet">
 
+  <script src="js/main.js" defer></script>
+
   <!-- for reading + nav -->
   <link href="https://fonts.googleapis.com/css?family=Heebo&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -17,81 +19,169 @@
 
 <body>
 
-  <nav id="homeNav">
+  <!-- <nav id="homeNav">
     <ul class="nav-container">
-      <li  class="nav-logo"><a href="portfolio.html" class="nav-logo-item on-page-home nav-link">Jar Hsuan Wang</a> </li>
+      <div class="nav-logo">
+        <li><a href="portfolio.html" class="nav-logo-item on-page-home">
+          <img class="personal-nav-logo" src="image/logo.png" alt="personal logo">Jar Hsuan</a> </li>
+        </div>
 
-      <li><a class="main-nav-accent-two nav-link" href="project_display.html">PROJECT</a></li>
-      <li><a class="main-nav-accent-one nav-link" href="about.html">ABOUT</a></li>
-    </ul>
-  </nav>
+        <li><a class="main-nav-accent-one nav-link" href="project_UXUI_display.html">UX/UI</a></li>
+        <li><a class="main-nav-accent-one nav-link" href="project_visual_display.html">VISUAL</a></li>
+        <li><a class="main-nav-accent-one nav-link" href="about.html">ABOUT</a></li>
+      </ul>
+    </nav> -->
+
+    <!--hamburger menu-->
+    <nav id="navHeader">
+      <div class="nav-logo">
+        <li><a href="portfolio.html" class="nav-logo-item on-page-home">
+          <img class="personal-nav-logo" src="image/logo.png" alt="personal logo">Jar Hsuan</a> </li>
+        </div>
+
+        <div class="menu-btn">
+          <div class="menu-btn__lines"></div>
+        </div>
+
+        <ul class="menu-items">
+          <li><a class=" menu-item" href="project_UXUI_display.html">UX/UI</a></li>
+          <li><a class=" menu-item" href="project_visual_display.html">VISUAL</a></li>
+          <li><a class=" menu-item" href="about.html">ABOUT</a></li>
+        </ul>
+      </nav>
+
+      <section id="intro-hero" class="intro-container">
+
+      <div id="intro-content">
+        <h1 id="intro-greeting">Building trust by designing inclusively for and with real humans.</h1>
+        <h3 id="intro-description">My name Jar Hsuan. I am a Vancouver-based digital designer and an experience strategist with focuses on visual design and UX/UI design.
+          My design mission is to assist businesses by translating human and market insights into appropriate experiences for their customers.</h3>
+          <button class="update-btn" type="button" onclick="window.location.href='http://w3.uch.edu.tw/pec/2021/2021_updates.pdf';">Check my resumes</button>
+        </div>
+
+        <div>
+          <img src="image/intro-testing.png" alt="testing" class="intro-pic">
+        </div>
+        <!-- <div>
+        <img src="image/landingpg-01.png" id="small-decoration" alt="decoration image representing me as a content strategist.">
+      </div>
+      <div>
+      <img src="image/landingpg-03.png" id="big-decoration" alt="decoration image representing me as a content strategist.">
+    </div> -->
+  </section>
 
   <section>
 
-    <div id="new-update-home">
-      <h2 id="update-bnr-home">2021 New UX/UI Project Overview</h2>
-      <button class="update-btn-home" type="button" onclick="window.location.href='http://w3.uch.edu.tw/pec/2021/2021_updates.pdf';">Check Here</button>
-    </div>
-    <div>
-      <img src="image/landingpg-01.png" id="small-decoration" alt="decoration image representing me as a content strategist.">
-      <!-- <div class="landing-item"> <img src="image/landingpg-01.png" class="landing-item intro-img" id= "big-intro" alt="decoration pic."></div>
-      <div class="landing-item"><img src="image/landingpg-02.png" class="intro-img" alt="decoration pic."></div> -->
-    </div>
-    <div>
-      <img src="image/landingpg-03.png" id="big-decoration" alt="decoration image representing me as a content strategist.">
-    </div>
-  </section>
+    <h3 class="project-group-title">RECENT UX/UI PROJECTS</h3>
+    <a href="project_UXUI_display.html" class="main-nav-accent-one more-project">MORE &rsaquo;</a>
 
-  <div id="recent-project-footer">
-    <section>
+    <div class="recent-container">
+      <a href="intranet.html">
+        <div class="recent-project-item recent-project-content-container border-highlight-one recent-project-content">
+          <div>
+            <img src="image/maze_preview.png" alt="project-preview" class="recent-img-preview">
+          </div>
+          <div class="recent-project-content-area">
+            <h3 class="recent-project-title">Maze Refresh</h3>
+            <p class="recent-project-description">Redesigning a prototyping platform, Maze's interface to enhance and guide user prototyping process.</p>
+          </div>
+        </div> </a>
+
+        <a href="intranet.html">
+          <div class="recent-project-item recent-project-content-container border-highlight-one recent-project-content">
+            <div class="recent-project-content">
+              <img src="image/Sharepoint_final_pre.png" alt="project-preview" class="recent-img-preview">
+            </div>
+            <div class="recent-project-content recent-project-content-area">
+              <h1 class="recent-project-title">SharePoint Refresh</h1>
+              <p class="recent-project-description">Building a digital headquarter for Paladin Security to increase productivity and employee interactions.</p>
+            </div>
+          </div>
+        </a>
+
+      </div>
+
+      <h3 class="project-group-title">RECENT VISUAL PROJECTS</h3>
+      <a href="project_visual_display.html" class="main-nav-accent-one more-project">MORE &rsaquo;</a>
+
+      <div class="recent-container">
+        <a href="recruitment_vid.html">
+          <div class="recent-project-item recent-project-content-container border-highlight-one recent-project-content">
+            <div>
+              <img src="image/pas_preview.png" alt="project-preview" class="recent-img-preview">
+            </div>
+            <div class="recent-project-content-area">
+              <h1 class="recent-project-title">Project name</h1>
+              <p>dfjdbghjkfdsgb</p>
+            </div>
+          </div> </a>
+
+          <a href="ethno.html">
+            <div class="recent-project-item recent-project-content-container border-highlight-one recent-project-content">
+              <div class="recent-project-content">
+                <img src="image/ethno_preview.png" alt="project-preview" class="recent-img-preview">
+              </div>
+              <div class="recent-project-content recent-project-content-area">
+                <h1 class="recent-project-title">Project name</h1>
+                <p>dfjdbghjkfdsgb</p>
+              </div>
+            </div>
+          </a>
+
+        </div>
+
+      </section>
+
+      <!-- <div id="recent-project-footer">
+      <section>
       <h2 class="recent-project-name">Project List</h2>
 
       <div class="recent-project-container">
 
-        <a href="intranet.html" class="recent-project-item border-highlight-one">
-          <div class = "project-img-container">
-            <img src="image/intranet_nav.png" class="recent-project-item-img" alt="intranet">
-          </div>
-          <div class="project-overlay"></div>
-          <div class="project-hover-text">
-            <p class="project-description">Intranet Refreshes</p>
-          </div>
-        </a>
-
-        <a href="ethno.html" class="recent-project-item border-highlight-one">
-          <div class = "project-img-container">
-            <img src="image/ethnographic_poster.png" class="recent-project-item-img" alt="VR trailer">
-          </div>
-          <div class="project-overlay"></div>
-          <div class="project-hover-text">
-            <p class="project-description">Branding Poster</p>
-          </div>
-        </a>
-
-        <a href="cyber.html" class="recent-project-item border-highlight-one">
-          <div class = "project-img-container">
-            <img src="image/cyber_nav.png" class="recent-project-item-img" alt="cyber">
-          </div>
-          <div class="project-overlay"></div>
-          <div class="project-hover-text">
-            <p class="project-description">Collateral Design</p>
-          </div>
-        </a>
-
-        <a href="recruitment_vid.html" class="recent-project-item border-highlight-one">
-          <img src="image/pas_recruitment.png" class="recent-project-item-img" alt="recruitment video">
-          <div class="project-overlay"></div>
-          <div class="project-hover-text">
-            <p class="project-description">Recruitment Video</p>
-          </div>
-        </a>
-      </section>
-
-
-      <footer>
-        <a href="http://w3.uch.edu.tw/pec/2021/2021_resume.pdf">RESUME</a> | <a href ="https://flic.kr/s/aHsmK7DxUj"> PROJECT GALLERY </a> | <p id="contact">CONTACT:sherry95jhw@gmail.com</p>
-      </footer>
+      <a href="intranet.html" class="recent-project-item border-highlight-one">
+      <div class = "project-img-container">
+      <img src="image/intranet_nav.png" class="recent-project-item-img" alt="intranet">
     </div>
+    <div class="project-overlay"></div>
+    <div class="project-hover-text">
+    <p class="project-description">Intranet Refreshes</p>
+  </div>
+</a>
 
-  </body>
-  </html>
+<a href="ethno.html" class="recent-project-item border-highlight-one">
+<div class = "project-img-container">
+<img src="image/ethnographic_poster.png" class="recent-project-item-img" alt="VR trailer">
+</div>
+<div class="project-overlay"></div>
+<div class="project-hover-text">
+<p class="project-description">Branding Poster</p>
+</div>
+</a>
+
+<a href="cyber.html" class="recent-project-item border-highlight-one">
+<div class = "project-img-container">
+<img src="image/cyber_nav.png" class="recent-project-item-img" alt="cyber">
+</div>
+<div class="project-overlay"></div>
+<div class="project-hover-text">
+<p class="project-description">Collateral Design</p>
+</div>
+</a>
+
+<a href="recruitment_vid.html" class="recent-project-item border-highlight-one">
+<img src="image/pas_recruitment.png" class="recent-project-item-img" alt="recruitment video">
+<div class="project-overlay"></div>
+<div class="project-hover-text">
+<p class="project-description">Recruitment Video</p>
+</div>
+</a>
+</section> -->
+
+
+<footer>
+  <a href="http://w3.uch.edu.tw/pec/2021/2021_resume.pdf">RESUME</a> | <a href ="https://flic.kr/s/aHsmK7DxUj"> PROJECT GALLERY </a> | <p id="contact">CONTACT:sherry95jhw@gmail.com</p>
+</footer>
+</div>
+
+</body>
+</html>
