@@ -358,6 +358,10 @@ figure{
   max-width:100%;
 }
 
+.about-container{
+  padding-top:8rem;
+}
+
 #photo_one{
   display:flex;
   margin:auto;
@@ -643,6 +647,7 @@ margin: 0 auto;
 
 #intro-content{
     padding-left: 5rem;
+    padding-bottom:3rem;
 }
 
 .project-group-title{
@@ -813,8 +818,8 @@ border-color: #65B2C6;
   font-weight: 500;
   /* height: 40px;
   line-height: 20px;
-  list-style: none; */
-  margin: 0 1.5rem;
+  list-style: none;
+  margin: 0 1.5rem;*/
   outline: none;
   padding: 0.5rem 0.5rem;
   position: relative;

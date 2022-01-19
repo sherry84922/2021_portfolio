@@ -9,6 +9,8 @@
   <link href="css/portfolio_main.css" rel="stylesheet">
   <link href="css/portfolio_flexbox.css" rel="stylesheet">
 
+  <script src="js/main.js" defer></script>
+
   <!-- for reading -->
   <link href="https://fonts.googleapis.com/css?family=Heebo&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -17,7 +19,7 @@
 
 <body>
 
-  <nav class="nav-in-project-detail">
+  <!-- <nav class="nav-in-project-detail">
     <ul class="nav-container">
       <li  class="nav-logo"><a href="portfolio.html" class="nav-logo-item nav-link">Jar Hsuan Wang</a> </li>
 
@@ -25,14 +27,32 @@
       <li><a class="main-nav-accent-one nav-link" href="about.html">ABOUT</a></li>
 
     </ul>
-  </nav>
+  </nav> -->
+
+  <!--hamburger menu-->
+  <nav id="navHeader">
+    <div class="nav-logo">
+      <li><a href="portfolio.html" class="nav-logo-item on-page-home">
+        <img class="personal-nav-logo" src="image/logo.png" alt="personal logo">Jar Hsuan</a> </li>
+      </div>
+
+      <div class="menu-btn">
+        <div class="menu-btn__lines"></div>
+      </div>
+
+      <ul class="menu-items">
+        <li><a class=" menu-item" href="project_UXUI_display.html">UX/UI</a></li>
+        <li><a class=" menu-item" href="project_visual_display.html">VISUAL</a></li>
+        <li><a class=" menu-item" href="about.html">ABOUT</a></li>
+      </ul>
+    </nav>
 
   <section class="preview-section-container">
 
-    <div id="new-update">
+    <!-- <div id="new-update">
       <h2 id="update-bnr">2021 New UX/UI Project Overview</h2>
       <button class="update-btn" type="button" onclick="window.location.href='http://w3.uch.edu.tw/pec/2021/2021_updates.pdf';">Check Here</button>
-    </div>
+    </div> -->
 
     <div class="overview-image-container">
 

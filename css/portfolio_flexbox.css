@@ -402,6 +402,15 @@ flex-basis:95%;
 	.recent-project-content-area{
 		padding:1.2em;
 	}
+
+	.intro-container{
+		margin-bottom:3rem;
+	}
+
+	#intro-greeting {
+	    font-size: 1.8rem;
+	    line-height: 2.5rem;
+	}
 }
 
 @media(max-width:37.5em){
@@ -420,8 +429,22 @@ flex-basis:95%;
 		margin-left:2rem;
 		padding:0;
 	}
+
+	#intro-description {
+    font-size: 1rem;
+    line-height: 1.3rem;}
+
+	.intro-pic{
+		display:none;
+	}
+
+	.intro-container{
+	  grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+	}
+
 }
-@media(max-width:31.25em){
+
+@media(max-width:31.875em){
 
 .personal-nav-logo{
 	max-width: 18%;
