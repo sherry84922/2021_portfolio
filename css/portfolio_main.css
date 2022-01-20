@@ -809,12 +809,13 @@ border-color: #65B2C6;
 .update-btn{
   background-color: rgba(71, 94, 191);
   border-radius: 8px;
-  border-style: none;
+  border-style: solid;
+  border-color: rgba(71, 94, 191);
   box-sizing: border-box;
   color: #FFFFFF;
-  cursor: pointer; display:
-  inline-block;
-  font-size: 14px;
+  cursor: pointer;
+  display:inline-block;
+  font-size: 0.9em;
   font-weight: 500;
   /* height: 40px;
   line-height: 20px;
@@ -831,14 +832,48 @@ border-color: #65B2C6;
   -webkit-user-select: none;
   touch-action: manipulation; }
 
-  .update-btn:hover, .update-btn:focus { background-color: rgba(71, 94, 191, 0.6); }
+  .update-btn:hover, .update-btn:focus {
+  font-weight:bolder;
+}
 
-  .visual-design{
+  .connect-btn{
+    margin-left: 1rem;
+    background-color: transparent;
+    border-radius: 8px;
+    border-style: solid;
+    box-sizing: border-box;
+    color: rgba(71, 94, 191);
+    border-color:rgba(71, 94, 191);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.9em;
+    font-weight: 500;
+    /* height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0 1.5rem;*/
+    outline: none;
+    padding: 0.5rem 0.5rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation; }
+
+    .connect-btn:hover, .connect-btn:focus {
+      font-weight:bolder;
+    }
+
+
+  /* .visual-design{
     padding:0;
     padding-bottom:2.5rem;
-  }
+  } */
 
-  .update-btn-home{
+  /* .update-btn-home{
     background-color: #FFFFFF;
     border-radius: 8px;
     border-style: none;
@@ -848,9 +883,6 @@ border-color: #65B2C6;
     display: inline-block;
     font-size: 14px;
     font-weight: 500;
-    /* height: 40px;
-    line-height: 20px;
-    list-style: none; */
     margin: 0 1.5rem;
     outline: none;
     padding: 0.5rem 0.5rem;
@@ -865,7 +897,7 @@ border-color: #65B2C6;
 
     .update-btn-home:hover, .update-btn-home:focus {
       font-weight:bolder;
-    }
+    } */
 
 
     .project-category-title{
@@ -947,6 +979,7 @@ border-color: #65B2C6;
 
   .recent-project-description{
     font-size: 0.9rem;
+    max-width: 90%;
     line-height: 1.1rem;
   }
 
