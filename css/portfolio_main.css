@@ -867,6 +867,41 @@ border-color: #65B2C6;
       font-weight:bolder;
     }
 
+    .extra-btn{
+      margin-left: 1rem;
+      background-color: transparent;
+      border-radius: 8px;
+      border-style: solid;
+      box-sizing: border-box;
+      color: rgba(71, 94, 191);
+      border-color:rgba(71, 94, 191);
+      cursor: pointer;
+      display: inline-block;
+      font-size: 0.9em;
+      font-weight: 500;
+      /* height: 40px;
+      line-height: 20px;
+      list-style: none;
+      margin: 0 1.5rem;*/
+      outline: none;
+      padding: 0.5rem 0.5rem;
+      position: relative;
+      text-align: center;
+      text-decoration: none;
+      transition: color 100ms;
+      vertical-align: baseline;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation; }
+
+      .extra-btn:hover, .extra-btn:focus {
+        font-weight:bolder;
+      }
+
+#btn-group{
+  display:inline-block;
+
+}
 
   /* .visual-design{
     padding:0;
