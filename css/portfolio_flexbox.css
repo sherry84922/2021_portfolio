@@ -144,6 +144,31 @@ flex-basis:95%;
 	flex-basis:100%;
 }
 
+/*prototype wrapper*/
+.prototype_container{
+	margin: auto;
+	width:800px;
+}
+
+.prototype_wrapper{
+	float: none;
+	clear: both;
+	width: 100%;
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	height: 0;
+}
+.prototype_wrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+
 /*vid*/
 /* This is the div the video is placed inside */
 .video-container{
@@ -152,7 +177,7 @@ flex-basis:95%;
 }
 
 /* This code adjusts the size of the video, without distorting the aspect ratio */
-.videowrapper {
+.videowrapper{
 	float: none;
 	clear: both;
 	width: 100%;
@@ -174,7 +199,16 @@ flex-basis:95%;
 	.video-container{
 		width:100%;
 	}
+
 }
+
+@media only screen and (max-width: 800px) {
+
+	.prototype_container{
+		width:100%;
+	}
+}
+
 
 /*overview with vid*/
 .overview-video{
@@ -250,7 +284,7 @@ flex-basis:95%;
 	}
 
 	.project-image{
-		max-width:70%;
+		max-width:80%;
 	}
 
 	figCaption{
