@@ -50,6 +50,7 @@ h2 {
 }
 .project-name-vid{
   color:#3C3C3C;
+  line-height:1.5rem;
   margin-left:1rem;
 }
 
@@ -81,6 +82,7 @@ h2 {
   color:#636363;
   margin-left:1rem;
   margin-bottom:0.8rem;
+  line-height:1.5rem;
   font-family: 'Heebo', sans-serif;
 }
 
@@ -290,6 +292,12 @@ p{
   margin:1rem auto;
 }
 
+/*paragrpah's in-text note*/
+.note{
+  background-color: rgba(202, 230, 255, 0.4);
+  padding:1rem;
+}
+
 .paragraph-in-text{
   /* display:block; */
   color:#5D81F4;
@@ -482,16 +490,16 @@ nav a:hover, nav a:focus {
 }
 
 /* .main-nav-accent-two {
-  display: inline-block;
-  font-family:'Heebo', sans-serif;
-  text-decoration: none;
-  color:#475EBF;
-  font-weight:bold;
-  position: relative;
-  width: 5rem;
-  text-align: center;
-  -webkit-transition: color 0.3s ease-in-out 0s;
-  transition: color 0.3s ease-in-out 0s;
+display: inline-block;
+font-family:'Heebo', sans-serif;
+text-decoration: none;
+color:#475EBF;
+font-weight:bold;
+position: relative;
+width: 5rem;
+text-align: center;
+-webkit-transition: color 0.3s ease-in-out 0s;
+transition: color 0.3s ease-in-out 0s;
 } */
 
 
@@ -527,24 +535,24 @@ http://tobiasahlin.com/blog/css-trick-animating-link-underlines/*/
 }
 
 /* .main-nav-accent-two:before{
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  bottom: -0.3rem;
-  left: 0;
-  background-color: #475EBF; */
-  /*this is the hover line code*/
-  /*visibility: hidden;*/
-  /*-webkit-transform: scaleX(0);
-  transform: scaleX(0);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;*/
+content: "";
+position: absolute;
+width: 100%;
+height: 2px;
+bottom: -0.3rem;
+left: 0;
+background-color: #475EBF; */
+/*this is the hover line code*/
+/*visibility: hidden;*/
+/*-webkit-transform: scaleX(0);
+transform: scaleX(0);
+-webkit-transition: all 0.3s ease-in-out 0s;
+transition: all 0.3s ease-in-out 0s;*/
 
-  /*to return to the previous line animation, delete the following and activate the code below*/
-  /* visibility: visible;
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
+/*to return to the previous line animation, delete the following and activate the code below*/
+/* visibility: visible;
+-webkit-transform: scaleX(1);
+transform: scaleX(1);
 } */
 
 /*recover the line animation*/
@@ -555,8 +563,8 @@ transform: scaleX(1);
 }*/
 
 /* .main-nav-accent-two:hover, .main-nav-accent-two:focus {
-  color:#475EBF;
-  font-weight: bold;
+color:#475EBF;
+font-weight: bold;
 } */
 
 .nav-container ul{
@@ -636,8 +644,8 @@ nav ul{
 
 .intro-pic{
   display:block;
-margin: 0 auto;
-  }
+  margin: 0 auto;
+}
 
 #intro-greeting{
   font-size: 2.5rem;
@@ -652,8 +660,8 @@ margin: 0 auto;
 }
 
 #intro-content{
-    padding-left: 5rem;
-    padding-bottom:3rem;
+  padding-left: 5rem;
+  padding-bottom:3rem;
 }
 
 .project-group-title{
@@ -839,8 +847,8 @@ border-color: #65B2C6;
   touch-action: manipulation; }
 
   .update-btn:hover, .update-btn:focus {
-  font-weight:bolder;
-}
+    font-weight:bolder;
+  }
 
   .connect-btn{
     margin-left: 1rem;
@@ -904,179 +912,179 @@ border-color: #65B2C6;
         font-weight:bolder;
       }
 
-#btn-group{
-  display:inline-block;
+      #btn-group{
+        display:inline-block;
 
-}
+      }
 
-  /* .visual-design{
-    padding:0;
-    padding-bottom:2.5rem;
-  } */
+      /* .visual-design{
+      padding:0;
+      padding-bottom:2.5rem;
+      } */
 
-  /* .update-btn-home{
-    background-color: #FFFFFF;
-    border-radius: 8px;
-    border-style: none;
-    box-sizing: border-box;
-    color: rgba(71, 94, 191);
-    cursor: pointer;
-    display: inline-block;
-    font-size: 14px;
-    font-weight: 500;
-    margin: 0 1.5rem;
-    outline: none;
-    padding: 0.5rem 0.5rem;
-    position: relative;
-    text-align: center;
-    text-decoration: none;
-    transition: color 100ms;
-    vertical-align: baseline;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation; }
+      /* .update-btn-home{
+      background-color: #FFFFFF;
+      border-radius: 8px;
+      border-style: none;
+      box-sizing: border-box;
+      color: rgba(71, 94, 191);
+      cursor: pointer;
+      display: inline-block;
+      font-size: 14px;
+      font-weight: 500;
+      margin: 0 1.5rem;
+      outline: none;
+      padding: 0.5rem 0.5rem;
+      position: relative;
+      text-align: center;
+      text-decoration: none;
+      transition: color 100ms;
+      vertical-align: baseline;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation; }
 
-    .update-btn-home:hover, .update-btn-home:focus {
+      .update-btn-home:hover, .update-btn-home:focus {
       font-weight:bolder;
+      } */
+
+
+      .project-category-title{
+        margin-bottom:0;
+      }
+
+      /* .project-overlay{
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: .55;
+      background-color: #fff;
+    }
+
+
+    .project-hover-text{
+    color: #3C3C3C;
+    font-size: 0.8rem;
+    font-weight:600;
+    line-height:0.1rem;
+    position: absolute;
+    max-width:100%;
+    top: 50%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    } */
+
+    /*recent project*/
+    .recent-project-item {
+      /* display: inline-block;
+      position:relative;
+      line-height: 0;
+      margin: 1.2rem;
+      font-size: 1rem;
+      opacity: .999; */
+      display: block;
+      border-radius: 10px;
+      position: relative;
+      line-height: 0;
+      margin: 1.2rem 2rem;
+      opacity: .999;
+      box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.05);
+    }
+
+
+    .project-item-title, .project-item-description{
+      display: block;
+      margin: auto;
+      text-align: center
+    }
+
+    #recent-project-footer{
+      padding-top:1.5rem;
+      width:100%;
+      margin-bottom:0;
+      /* background-color:#EAE9E9; */
+    }
+
+    .recent-container{
+      display:grid;
+      grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+    }
+
+    .recent-project-content-container{
+      display:grid;
+      grid-gap:0;
+      grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+    }
+
+    .recent-project-content-area{
+      padding:1.5em;
+    }
+
+    .recent-project-description{
+      font-size: 0.9rem;
+      max-width: 90%;
+      line-height: 1.1rem;
+    }
+
+    .recent-project-title{
+      font-size:1.2rem;
+      padding-bottom: 0.5rem;
+    }
+
+    .recent-project-item {
+      background-color: white;
+      border: 1.4px solid transparent;
+    }
+
+
+    /* .recent-project-item-img{
+    max-width:100%;
+    width:100%;
+    vertical-align:middle;
+    /* padding:0.2rem; must omit this line later on!
     } */
 
 
-    .project-category-title{
-      margin-bottom:0;
+    .recent-project-item:before, .recent-project-item:after {
+      content: '';
+      border-style: solid;
+      position: absolute;
+      z-index: 5;
+      -webkit-box-sizing: content-box;
+      box-sizing: content-box;
+    }
+    .recent-project-item:before {
+      width: 0;
+      height: 100%;
+      border-width: 1.4px 0 1.4px 0;
+      top: -1px;
+      left: 0;
+      -webkit-transition-delay: 0.08s;
+      transition-delay: 0.08s;
     }
 
-    /* .project-overlay{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: .55;
-    background-color: #fff;
-  }
 
+    .recent-project-item:after {
+      width: 100%;
+      height: 0;
+      border-width: 0 1.4px 0 1.4px;
+      top: 0;
+      left: -1px;
+    }
+    .recent-project-item:hover:before {
+      width: 100%;
+    }
+    .recent-project-item:hover:after {
+      height: 100%;
+    }
 
-  .project-hover-text{
-  color: #3C3C3C;
-  font-size: 0.8rem;
-  font-weight:600;
-  line-height:0.1rem;
-  position: absolute;
-  max-width:100%;
-  top: 50%;
-  left: 53%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-  } */
-
-  /*recent project*/
-  .recent-project-item {
-    /* display: inline-block;
-    position:relative;
-    line-height: 0;
-    margin: 1.2rem;
-    font-size: 1rem;
-    opacity: .999; */
-    display: block;
-    border-radius: 10px;
-    position: relative;
-    line-height: 0;
-    margin: 1.2rem 2rem;
-    opacity: .999;
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.05);
-  }
-
-
-  .project-item-title, .project-item-description{
-    display: block;
-    margin: auto;
-    text-align: center
-  }
-
-  #recent-project-footer{
-    padding-top:1.5rem;
-    width:100%;
-    margin-bottom:0;
-    /* background-color:#EAE9E9; */
-  }
-
-  .recent-container{
-    display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
-  }
-
-  .recent-project-content-container{
-    display:grid;
-    grid-gap:0;
-    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
-  }
-
-  .recent-project-content-area{
-    padding:1.5em;
-  }
-
-  .recent-project-description{
-    font-size: 0.9rem;
-    max-width: 90%;
-    line-height: 1.1rem;
-  }
-
-  .recent-project-title{
-    font-size:1.2rem;
-    padding-bottom: 0.5rem;
-  }
-
-  .recent-project-item {
-    background-color: white;
-    border: 1.4px solid transparent;
-  }
-
-
-  /* .recent-project-item-img{
-  max-width:100%;
-  width:100%;
-  vertical-align:middle;
-  /* padding:0.2rem; must omit this line later on!
-  } */
-
-
-  .recent-project-item:before, .recent-project-item:after {
-    content: '';
-    border-style: solid;
-    position: absolute;
-    z-index: 5;
-    -webkit-box-sizing: content-box;
-    box-sizing: content-box;
-  }
-  .recent-project-item:before {
-    width: 0;
-    height: 100%;
-    border-width: 1.4px 0 1.4px 0;
-    top: -1px;
-    left: 0;
-    -webkit-transition-delay: 0.08s;
-    transition-delay: 0.08s;
-  }
-
-
-  .recent-project-item:after {
-    width: 100%;
-    height: 0;
-    border-width: 0 1.4px 0 1.4px;
-    top: 0;
-    left: -1px;
-  }
-  .recent-project-item:hover:before {
-    width: 100%;
-  }
-  .recent-project-item:hover:after {
-    height: 100%;
-  }
-
-  /*footer*/
-  footer{
-    text-align:center;
-  }
+    /*footer*/
+    footer{
+      text-align:center;
+    }

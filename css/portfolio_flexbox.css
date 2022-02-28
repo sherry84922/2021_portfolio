@@ -267,11 +267,11 @@ flex-basis:95%;
 	}
 
 	.project-image{
-		max-width:85%;
+		max-width:90%;
 	}
 
 	figCaption{
-		max-width:70%;
+		max-width:85%;
 	}
 
 }
@@ -285,7 +285,7 @@ flex-basis:95%;
 	}
 
 	.project-image{
-		max-width:80%;
+		max-width:85%;
 	}
 
 	figCaption{
