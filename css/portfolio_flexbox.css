@@ -147,6 +147,7 @@ flex-basis:95%;
 /*prototype wrapper*/
 .prototype_container{
 	margin: auto;
+	margin-top:2.5em;
 	width:800px;
 }
 
@@ -266,7 +267,7 @@ flex-basis:95%;
 	}
 
 	.project-image{
-		max-width:70%;
+		max-width:85%;
 	}
 
 	figCaption{
