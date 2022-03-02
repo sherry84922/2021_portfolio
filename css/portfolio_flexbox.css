@@ -144,6 +144,32 @@ flex-basis:95%;
 	flex-basis:100%;
 }
 
+/*prototype wrapper*/
+.prototype_container{
+	margin: auto;
+	margin-top:2.5em;
+	width:800px;
+}
+
+.prototype_wrapper{
+	float: none;
+	clear: both;
+	width: 100%;
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	height: 0;
+}
+.prototype_wrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+
 /*vid*/
 /* This is the div the video is placed inside */
 .video-container{
@@ -152,7 +178,7 @@ flex-basis:95%;
 }
 
 /* This code adjusts the size of the video, without distorting the aspect ratio */
-.videowrapper {
+.videowrapper{
 	float: none;
 	clear: both;
 	width: 100%;
@@ -174,7 +200,16 @@ flex-basis:95%;
 	.video-container{
 		width:100%;
 	}
+
 }
+
+@media only screen and (max-width: 800px) {
+
+	.prototype_container{
+		width:100%;
+	}
+}
+
 
 /*overview with vid*/
 .overview-video{
@@ -232,11 +267,11 @@ flex-basis:95%;
 	}
 
 	.project-image{
-		max-width:70%;
+		max-width:90%;
 	}
 
 	figCaption{
-		max-width:70%;
+		max-width:85%;
 	}
 
 }
@@ -250,7 +285,7 @@ flex-basis:95%;
 	}
 
 	.project-image{
-		max-width:70%;
+		max-width:85%;
 	}
 
 	figCaption{
@@ -387,7 +422,7 @@ flex-basis:95%;
 }
 
 /*home recent project: 2022 new setup*/
-@media(max-width:62.5em){
+@media(max-width:73.125em){
 
 	.recent-project-content-container{
 		display:grid;
@@ -411,9 +446,28 @@ flex-basis:95%;
 	    font-size: 1.8rem;
 	    line-height: 2.5rem;
 	}
+
 }
 
-@media(max-width:37.5em){
+
+@media(max-width:50em){
+
+	.intro-pic{
+		display:none;
+	}
+
+	.intro-container{
+	  grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+	}
+
+	#intro-content{
+		    padding: 0 5rem;
+				padding-bottom: 3rem;
+	}
+
+}
+
+@media(max-width:42.5em){
 
 	.recent-container {
 		display: grid;
@@ -433,14 +487,6 @@ flex-basis:95%;
 	#intro-description {
     font-size: 1rem;
     line-height: 1.3rem;}
-
-	.intro-pic{
-		display:none;
-	}
-
-	.intro-container{
-	  grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
-	}
 
 }
 
@@ -463,6 +509,11 @@ padding-right: 1rem;
 	.main-nav-accent-one{
 		width: 5.8em;
 	}
+
+	#intro-greeting {
+    font-size: 1.3rem;
+    line-height: 2rem;}
+
 }
 
 @media(min-width:17.5em) and (max-width:21.18em){
@@ -666,7 +717,7 @@ padding-right: 1rem;
 	.project-title{
 		color:#475EBF;
 		margin-left:1rem;
-		margin-top: 4rem;
+		/* margin-top: 4rem; */
 		margin-bottom:0.8rem;
 		font-size:2.5rem;
 		font-family: 'Heebo', sans-serif;
@@ -675,7 +726,7 @@ padding-right: 1rem;
 	.project-title-vid{
 		color:#475EBF;
 		margin-left:1rem;
-		margin-top: 5rem;
+		/* margin-top: 5rem; */
 		margin-bottom:0.8rem;
 		font-size:3rem;
 		font-family:'Heebo', sans-serif;
@@ -768,5 +819,23 @@ display:none;
 	.small-project-img{
 		display:none;
 	}
+
+}
+
+/*homepage button*/
+@media(max-width:30.625em){
+
+.connect-btn{
+	margin-left:0;
+}
+
+}
+
+@media(max-width:29.375em){
+
+.connect-btn{
+	margin-left:0;
+	margin-top:1rem;
+}
 
 }
