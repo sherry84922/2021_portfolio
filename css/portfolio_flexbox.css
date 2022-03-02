@@ -821,3 +821,21 @@ display:none;
 	}
 
 }
+
+/*homepage button*/
+@media(max-width:30.625em){
+
+.connect-btn{
+	margin-left:0;
+}
+
+}
+
+@media(max-width:29.375em){
+
+.connect-btn{
+	margin-left:0;
+	margin-top:1rem;
+}
+
+}
